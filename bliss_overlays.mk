@@ -49,6 +49,11 @@ include vendor/overlays/themes/backgrounds/system_themes.mk
 # Primary Colors
 include vendor/overlays/primary/primary_colors.mk
 
+# QS Header size
+PRODUCT_PACKAGES += \
+    headerlargeOverlay \
+    headerxlargeOverlay
+
 # Fonts
 PRODUCT_PACKAGES += \
     Custom-Fonts
